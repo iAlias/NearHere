@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MapLocationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MapLocationAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* MapLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MapLocationViewController.m */; };
+		8A4568B4137C1B0900AE5C31 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4568B2137C1B0900AE5C31 /* SettingViewController.m */; };
+		8A80FF3C13B35AA300FB3D51 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A80FF3B13B35AA300FB3D51 /* Reachability.m */; };
+		8A80FF5713B35C6200FB3D51 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A80FF5613B35C6200FB3D51 /* SystemConfiguration.framework */; };
+		8A8B7C83138E975800CD82F5 /* FavoritesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8B7C82138E975800CD82F5 /* FavoritesData.m */; };
+		8AA1AAED139F9FAE0011FFC3 /* 12962I3B530-35013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AA1AAEC139F9FAE0011FFC3 /* 12962I3B530-35013.jpg */; };
+		8AA1AB45139FAFAB0011FFC3 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA1AB41139FAFAB0011FFC3 /* map.png */; };
+		8AA1AB5A139FB5EC0011FFC3 /* bianco.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA1AB59139FB5EC0011FFC3 /* bianco.png */; };
+		8AA1AB79139FB8FE0011FFC3 /* rosso.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA1AB77139FB8FE0011FFC3 /* rosso.png */; };
+		8AA1AB7A139FB8FE0011FFC3 /* verde.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA1AB78139FB8FE0011FFC3 /* verde.png */; };
+		8AA5F08813B23AB2000F9BB7 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA5F08713B23AB2000F9BB7 /* InfoViewController.xib */; };
+		8AA7ACA913853D6900343EF6 /* Sms.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7ACA713853D6900343EF6 /* Sms.m */; };
+		8AA7ACAE13853D7200343EF6 /* Mail.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7ACAC13853D7200343EF6 /* Mail.m */; };
+		8AA7ACB313853D7E00343EF6 /* Chiamata.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7ACB113853D7E00343EF6 /* Chiamata.m */; };
+		8AA7ACB813853D8A00343EF6 /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7ACB613853D8A00343EF6 /* Info.m */; };
+		8ABA851C13AB49C30092F90C /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ABA851B13AB49C30092F90C /* SettingViewController.xib */; };
+		8ABA852213AB4AB80092F90C /* Chiamata.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ABA852113AB4AB80092F90C /* Chiamata.xib */; };
+		8ADE70471372E00000F80CC1 /* Favorite.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE70461372E00000F80CC1 /* Favorite.m */; };
+		E0D11E4811920125006C6764 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D11E4711920125006C6764 /* CoreLocation.framework */; };
+		E0D11E4A11920125006C6764 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D11E4911920125006C6764 /* MapKit.framework */; };
+		E0D11E7E1192049E006C6764 /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D11E7D1192049E006C6764 /* MapViewAnnotation.m */; };
+		F602D612133B76EC00C60F50 /* MapLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F602D611133B76EC00C60F50 /* MapLocationViewController.xib */; };
+		F67061531342285200DF6FEB /* zoom.png in Resources */ = {isa = PBXBuildFile; fileRef = F67061521342285200DF6FEB /* zoom.png */; };
+		F6799F731333A676001F4155 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6799F721333A676001F4155 /* MessageUI.framework */; };
+		F67A86541332798800EF7C17 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67A86531332798800EF7C17 /* AddressBookUI.framework */; };
+		F67A866A133279F300EF7C17 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67A8669133279F300EF7C17 /* AddressBook.framework */; };
+		F67C3767133D29800053BA2F /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F67C3766133D29800053BA2F /* icon@2x.png */; };
+		F67C376B133D29BF0053BA2F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F67C376A133D29BF0053BA2F /* icon.png */; };
+		F6815D80133B9099004972FB /* chiamate.png in Resources */ = {isa = PBXBuildFile; fileRef = F6815D7D133B9099004972FB /* chiamate.png */; };
+		F6815D81133B9099004972FB /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = F6815D7E133B9099004972FB /* mail.png */; };
+		F6815D82133B9099004972FB /* sms.png in Resources */ = {isa = PBXBuildFile; fileRef = F6815D7F133B9099004972FB /* sms.png */; };
+		F682821E13AB8F8C009607BD /* Mail.xib in Resources */ = {isa = PBXBuildFile; fileRef = F682821D13AB8F8C009607BD /* Mail.xib */; };
+		F682822313AB9045009607BD /* Sms.xib in Resources */ = {isa = PBXBuildFile; fileRef = F682822213AB9045009607BD /* Sms.xib */; };
+		F682822913AB90BB009607BD /* Info.xib in Resources */ = {isa = PBXBuildFile; fileRef = F682822813AB90BB009607BD /* Info.xib */; };
+		F6846458133BC87400193ADD /* Impostazioni.png in Resources */ = {isa = PBXBuildFile; fileRef = F6846457133BC87400193ADD /* Impostazioni.png */; };
+		F685EE561323EAE300D141F6 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = F685EE521323EAE300D141F6 /* add.png */; };
+		F685EE581323EAE300D141F6 /* now1.png in Resources */ = {isa = PBXBuildFile; fileRef = F685EE541323EAE300D141F6 /* now1.png */; };
+		F6866CF913224F4E004FF428 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6866CF813224F4E004FF428 /* InfoViewController.m */; };
+		F689D39B133BB65700E8C9E3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F689D399133BB65700E8C9E3 /* Default.png */; };
+		F689D39C133BB65700E8C9E3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F689D39A133BB65700E8C9E3 /* Default@2x.png */; };
+		F6AA09F71358877500BE30CE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6AA09F51358877500BE30CE /* Localizable.strings */; };
+		F6AA09FB1358879C00BE30CE /* Uppercase.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6AA09F91358879C00BE30CE /* Uppercase.strings */; };
+		F6C95AEF134224D800C8390D /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = F6C95AED134224D800C8390D /* delete.png */; };
+		F6C95AF0134224D800C8390D /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = F6C95AEE134224D800C8390D /* setting.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MapLocationAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocationAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MapLocationAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocationAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Progetto LAP1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Progetto LAP1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MapLocationViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* MapLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocationViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* MapLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocationViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Progetto LAP1_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Progetto LAP1_Prefix.pch"; sourceTree = "<group>"; };
+		8A4568B1137C1B0900AE5C31 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		8A4568B2137C1B0900AE5C31 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		8A4568B3137C1B0900AE5C31 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/SettingViewController.xib; sourceTree = "<group>"; };
+		8A80FF3A13B35AA300FB3D51 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8A80FF3B13B35AA300FB3D51 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		8A80FF5613B35C6200FB3D51 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8A8B7C81138E975800CD82F5 /* FavoritesData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesData.h; sourceTree = "<group>"; };
+		8A8B7C82138E975800CD82F5 /* FavoritesData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesData.m; sourceTree = "<group>"; };
+		8AA1AAEC139F9FAE0011FFC3 /* 12962I3B530-35013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12962I3B530-35013.jpg"; sourceTree = "<group>"; };
+		8AA1AB41139FAFAB0011FFC3 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		8AA1AB59139FB5EC0011FFC3 /* bianco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bianco.png; path = Classes/bianco.png; sourceTree = "<group>"; };
+		8AA1AB77139FB8FE0011FFC3 /* rosso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rosso.png; sourceTree = "<group>"; };
+		8AA1AB78139FB8FE0011FFC3 /* verde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verde.png; sourceTree = "<group>"; };
+		8AA5F08913B23ABC000F9BB7 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Italian; path = Italian.lproj/InfoViewController.xib; sourceTree = "<group>"; };
+		8AA7ACA613853D6900343EF6 /* Sms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sms.h; sourceTree = "<group>"; };
+		8AA7ACA713853D6900343EF6 /* Sms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sms.m; sourceTree = "<group>"; };
+		8AA7ACA813853D6900343EF6 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/Sms.xib; sourceTree = "<group>"; };
+		8AA7ACAB13853D7200343EF6 /* Mail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mail.h; sourceTree = "<group>"; };
+		8AA7ACAC13853D7200343EF6 /* Mail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mail.m; sourceTree = "<group>"; };
+		8AA7ACAD13853D7200343EF6 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/Mail.xib; sourceTree = "<group>"; };
+		8AA7ACB013853D7E00343EF6 /* Chiamata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chiamata.h; sourceTree = "<group>"; };
+		8AA7ACB113853D7E00343EF6 /* Chiamata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chiamata.m; sourceTree = "<group>"; };
+		8AA7ACB213853D7E00343EF6 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/Chiamata.xib; sourceTree = "<group>"; };
+		8AA7ACB513853D8A00343EF6 /* Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Info.h; sourceTree = "<group>"; };
+		8AA7ACB613853D8A00343EF6 /* Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Info.m; sourceTree = "<group>"; };
+		8ABA851D13AB49D10092F90C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Italian; path = Classes/Italian.lproj/SettingViewController.xib; sourceTree = "<group>"; };
+		8ABA852313AB4AC10092F90C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Italian; path = Classes/Italian.lproj/Chiamata.xib; sourceTree = "<group>"; };
+		8ACC6F06139E60D5008FC459 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Info.xib; sourceTree = "<group>"; };
+		8ADE70341372DA3800F80CC1 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		8ADE70451372E00000F80CC1 /* Favorite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Favorite.h; sourceTree = "<group>"; };
+		8ADE70461372E00000F80CC1 /* Favorite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Favorite.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Progetto LAP1-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Progetto LAP1-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E0D11E4711920125006C6764 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E0D11E4911920125006C6764 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E0D11E7C1192049E006C6764 /* MapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewAnnotation.h; sourceTree = "<group>"; };
+		E0D11E7D1192049E006C6764 /* MapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewAnnotation.m; sourceTree = "<group>"; };
+		F602D613133B770A00C60F50 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Italian; path = Italian.lproj/MapLocationViewController.xib; sourceTree = "<group>"; };
+		F66A82EC13ACF98C00A4BEF4 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/InfoViewController.xib; sourceTree = "<group>"; };
+		F67061521342285200DF6FEB /* zoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoom.png; sourceTree = "<group>"; };
+		F6799F721333A676001F4155 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F67A86531332798800EF7C17 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		F67A8669133279F300EF7C17 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F67C3766133D29800053BA2F /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		F67C376A133D29BF0053BA2F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F6815D7D133B9099004972FB /* chiamate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chiamate.png; sourceTree = "<group>"; };
+		F6815D7E133B9099004972FB /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		F6815D7F133B9099004972FB /* sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sms.png; sourceTree = "<group>"; };
+		F682821F13AB8F95009607BD /* Italian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Italian; path = Classes/Italian.lproj/Mail.xib; sourceTree = "<group>"; };
+		F682822413AB904E009607BD /* Italian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Italian; path = Classes/Italian.lproj/Sms.xib; sourceTree = "<group>"; };
+		F682822A13AB90C4009607BD /* Italian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Italian; path = Italian.lproj/Info.xib; sourceTree = "<group>"; };
+		F6846457133BC87400193ADD /* Impostazioni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Impostazioni.png; sourceTree = "<group>"; };
+		F685EE521323EAE300D141F6 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		F685EE541323EAE300D141F6 /* now1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = now1.png; sourceTree = "<group>"; };
+		F6866CF713224F4E004FF428 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		F6866CF813224F4E004FF428 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		F689D399133BB65700E8C9E3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F689D39A133BB65700E8C9E3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F6AA09F61358877500BE30CE /* Italian */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F6AA09F81358879000BE30CE /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F6AA09FA1358879C00BE30CE /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Uppercase.strings; sourceTree = "<group>"; };
+		F6AA09FC135887A900BE30CE /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/Uppercase.strings; sourceTree = "<group>"; };
+		F6C95AED134224D800C8390D /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		F6C95AEE134224D800C8390D /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				E0D11E4811920125006C6764 /* CoreLocation.framework in Frameworks */,
+				E0D11E4A11920125006C6764 /* MapKit.framework in Frameworks */,
+				F67A86541332798800EF7C17 /* AddressBookUI.framework in Frameworks */,
+				F67A866A133279F300EF7C17 /* AddressBook.framework in Frameworks */,
+				F6799F731333A676001F4155 /* MessageUI.framework in Frameworks */,
+				8A80FF5713B35C6200FB3D51 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8A80FF3A13B35AA300FB3D51 /* Reachability.h */,
+				8A80FF3B13B35AA300FB3D51 /* Reachability.m */,
+				8ADE70341372DA3800F80CC1 /* SynthesizeSingleton.h */,
+				1D3623240D0F684500981E51 /* MapLocationAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MapLocationAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* MapLocationViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* MapLocationViewController.m */,
+				8A4568B1137C1B0900AE5C31 /* SettingViewController.h */,
+				8A4568B2137C1B0900AE5C31 /* SettingViewController.m */,
+				E0D11E7C1192049E006C6764 /* MapViewAnnotation.h */,
+				E0D11E7D1192049E006C6764 /* MapViewAnnotation.m */,
+				F6866CF713224F4E004FF428 /* InfoViewController.h */,
+				F6866CF813224F4E004FF428 /* InfoViewController.m */,
+				8A8B7C81138E975800CD82F5 /* FavoritesData.h */,
+				8A8B7C82138E975800CD82F5 /* FavoritesData.m */,
+				8ADE70451372E00000F80CC1 /* Favorite.h */,
+				8ADE70461372E00000F80CC1 /* Favorite.m */,
+				8AA7ACA613853D6900343EF6 /* Sms.h */,
+				8AA7ACA713853D6900343EF6 /* Sms.m */,
+				8AA7ACB013853D7E00343EF6 /* Chiamata.h */,
+				8AA7ACB113853D7E00343EF6 /* Chiamata.m */,
+				8AA7ACAB13853D7200343EF6 /* Mail.h */,
+				8AA7ACAC13853D7200343EF6 /* Mail.m */,
+				8AA7ACB513853D8A00343EF6 /* Info.h */,
+				8AA7ACB613853D8A00343EF6 /* Info.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Progetto LAP1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Progetto LAP1_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				F602D611133B76EC00C60F50 /* MapLocationViewController.xib */,
+				8ABA851B13AB49C30092F90C /* SettingViewController.xib */,
+				8ABA852113AB4AB80092F90C /* Chiamata.xib */,
+				F682821D13AB8F8C009607BD /* Mail.xib */,
+				F682822213AB9045009607BD /* Sms.xib */,
+				F682822813AB90BB009607BD /* Info.xib */,
+				8AA5F08713B23AB2000F9BB7 /* InfoViewController.xib */,
+				F6AA09F51358877500BE30CE /* Localizable.strings */,
+				F6AA09F91358879C00BE30CE /* Uppercase.strings */,
+				8D1107310486CEB800E47090 /* Progetto LAP1-Info.plist */,
+				8AA1AAEC139F9FAE0011FFC3 /* 12962I3B530-35013.jpg */,
+				8AA1AB59139FB5EC0011FFC3 /* bianco.png */,
+				8AA1AB41139FAFAB0011FFC3 /* map.png */,
+				F67C376A133D29BF0053BA2F /* icon.png */,
+				F67C3766133D29800053BA2F /* icon@2x.png */,
+				F689D399133BB65700E8C9E3 /* Default.png */,
+				F689D39A133BB65700E8C9E3 /* Default@2x.png */,
+				F6846457133BC87400193ADD /* Impostazioni.png */,
+				F685EE521323EAE300D141F6 /* add.png */,
+				F685EE541323EAE300D141F6 /* now1.png */,
+				F6C95AED134224D800C8390D /* delete.png */,
+				F67061521342285200DF6FEB /* zoom.png */,
+				8AA1AB77139FB8FE0011FFC3 /* rosso.png */,
+				8AA1AB78139FB8FE0011FFC3 /* verde.png */,
+				F6C95AEE134224D800C8390D /* setting.png */,
+				F6815D7D133B9099004972FB /* chiamate.png */,
+				F6815D7E133B9099004972FB /* mail.png */,
+				F6815D7F133B9099004972FB /* sms.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A80FF5613B35C6200FB3D51 /* SystemConfiguration.framework */,
+				F6799F721333A676001F4155 /* MessageUI.framework */,
+				F67A86531332798800EF7C17 /* AddressBookUI.framework */,
+				F67A8669133279F300EF7C17 /* AddressBook.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				E0D11E4711920125006C6764 /* CoreLocation.framework */,
+				E0D11E4911920125006C6764 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Progetto LAP1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Progetto LAP1" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Progetto LAP1";
+			productName = MapLocation;
+			productReference = 1D6058910D05DD3D006BFB54 /* Progetto LAP1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Progetto LAP1" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Italian,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Progetto LAP1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				F602D612133B76EC00C60F50 /* MapLocationViewController.xib in Resources */,
+				F685EE561323EAE300D141F6 /* add.png in Resources */,
+				F685EE581323EAE300D141F6 /* now1.png in Resources */,
+				F6815D80133B9099004972FB /* chiamate.png in Resources */,
+				F6815D81133B9099004972FB /* mail.png in Resources */,
+				F6815D82133B9099004972FB /* sms.png in Resources */,
+				F689D39B133BB65700E8C9E3 /* Default.png in Resources */,
+				F689D39C133BB65700E8C9E3 /* Default@2x.png in Resources */,
+				F6846458133BC87400193ADD /* Impostazioni.png in Resources */,
+				F67C3767133D29800053BA2F /* icon@2x.png in Resources */,
+				F67C376B133D29BF0053BA2F /* icon.png in Resources */,
+				F6C95AEF134224D800C8390D /* delete.png in Resources */,
+				F6C95AF0134224D800C8390D /* setting.png in Resources */,
+				F67061531342285200DF6FEB /* zoom.png in Resources */,
+				F6AA09F71358877500BE30CE /* Localizable.strings in Resources */,
+				F6AA09FB1358879C00BE30CE /* Uppercase.strings in Resources */,
+				8ABA851C13AB49C30092F90C /* SettingViewController.xib in Resources */,
+				F682822313AB9045009607BD /* Sms.xib in Resources */,
+				F682821E13AB8F8C009607BD /* Mail.xib in Resources */,
+				8ABA852213AB4AB80092F90C /* Chiamata.xib in Resources */,
+				F682822913AB90BB009607BD /* Info.xib in Resources */,
+				8AA1AAED139F9FAE0011FFC3 /* 12962I3B530-35013.jpg in Resources */,
+				8AA1AB45139FAFAB0011FFC3 /* map.png in Resources */,
+				8AA1AB5A139FB5EC0011FFC3 /* bianco.png in Resources */,
+				8AA1AB79139FB8FE0011FFC3 /* rosso.png in Resources */,
+				8AA1AB7A139FB8FE0011FFC3 /* verde.png in Resources */,
+				8AA5F08813B23AB2000F9BB7 /* InfoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MapLocationAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* MapLocationViewController.m in Sources */,
+				E0D11E7E1192049E006C6764 /* MapViewAnnotation.m in Sources */,
+				F6866CF913224F4E004FF428 /* InfoViewController.m in Sources */,
+				8ADE70471372E00000F80CC1 /* Favorite.m in Sources */,
+				8A4568B4137C1B0900AE5C31 /* SettingViewController.m in Sources */,
+				8AA7ACA913853D6900343EF6 /* Sms.m in Sources */,
+				8AA7ACAE13853D7200343EF6 /* Mail.m in Sources */,
+				8AA7ACB313853D7E00343EF6 /* Chiamata.m in Sources */,
+				8AA7ACB813853D8A00343EF6 /* Info.m in Sources */,
+				8A8B7C83138E975800CD82F5 /* FavoritesData.m in Sources */,
+				8A80FF3C13B35AA300FB3D51 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8AA5F08713B23AB2000F9BB7 /* InfoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66A82EC13ACF98C00A4BEF4 /* English */,
+				8AA5F08913B23ABC000F9BB7 /* Italian */,
+			);
+			name = InfoViewController.xib;
+			sourceTree = "<group>";
+		};
+		8ABA851B13AB49C30092F90C /* SettingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A4568B3137C1B0900AE5C31 /* English */,
+				8ABA851D13AB49D10092F90C /* Italian */,
+			);
+			name = SettingViewController.xib;
+			sourceTree = "<group>";
+		};
+		8ABA852113AB4AB80092F90C /* Chiamata.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AA7ACB213853D7E00343EF6 /* English */,
+				8ABA852313AB4AC10092F90C /* Italian */,
+			);
+			name = Chiamata.xib;
+			sourceTree = "<group>";
+		};
+		F602D611133B76EC00C60F50 /* MapLocationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* English */,
+				F602D613133B770A00C60F50 /* Italian */,
+			);
+			name = MapLocationViewController.xib;
+			sourceTree = "<group>";
+		};
+		F682821D13AB8F8C009607BD /* Mail.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AA7ACAD13853D7200343EF6 /* English */,
+				F682821F13AB8F95009607BD /* Italian */,
+			);
+			name = Mail.xib;
+			sourceTree = "<group>";
+		};
+		F682822213AB9045009607BD /* Sms.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AA7ACA813853D6900343EF6 /* English */,
+				F682822413AB904E009607BD /* Italian */,
+			);
+			name = Sms.xib;
+			sourceTree = "<group>";
+		};
+		F682822813AB90BB009607BD /* Info.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ACC6F06139E60D5008FC459 /* English */,
+				F682822A13AB90C4009607BD /* Italian */,
+			);
+			name = Info.xib;
+			sourceTree = "<group>";
+		};
+		F6AA09F51358877500BE30CE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6AA09F81358879000BE30CE /* English */,
+				F6AA09F61358877500BE30CE /* Italian */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F6AA09F91358879C00BE30CE /* Uppercase.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6AA09FA1358879C00BE30CE /* English */,
+				F6AA09FC135887A900BE30CE /* Italian */,
+			);
+			name = Uppercase.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Antonino Di Stefano (JNB383644E)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Progetto LAP1_Prefix.pch";
+				INFOPLIST_FILE = "Progetto LAP1-Info.plist";
+				PRODUCT_NAME = "Progetto LAP1";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Progetto LAP1_Prefix.pch";
+				INFOPLIST_FILE = "Progetto LAP1-Info.plist";
+				PRODUCT_NAME = "Progetto LAP1";
+				SDKROOT = iphoneos4.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Antonino Di Stefano (JNB383644E)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Progetto LAP1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Progetto LAP1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
